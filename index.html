@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Count de Money</title>
+    <script src = "script.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="coin-section">
+            <h2>Pennies</h2>
+            <div class="coin-controls">
+                <button onclick="changeCoin('pennies', -1)">-1</button>
+                <button onclick="changeCoin('pennies', -5)">-5</button>
+                <span id="pennies-count">0</span>
+                <button onclick="changeCoin('pennies', 1)">+1</button>
+                <button onclick="changeCoin('pennies', 5)">+5</button>
+            </div>
+            <p>Total Value: $<span id="pennies-value">0.00</span></p>
+        </div>
+
+        <div class="coin-section">
+            <h2>Nickels</h2>
+            <div class="coin-controls">
+                <button onclick="changeCoin('nickels', -1)">-1</button>
+                <button onclick="changeCoin('nickels', -5)">-5</button>
+                <span id="nickels-count">0</span>
+                <button onclick="changeCoin('nickels', 1)">+1</button>
+                <button onclick="changeCoin('nickels', 5)">+5</button>
+            </div>
+            <p>Total Value: $<span id="nickels-value">0.00</span></p>
+        </div>
+
+        <div class="coin-section">
+            <h2>Dimes</h2>
+            <div class="coin-controls">
+                <button onclick="changeCoin('dimes', -1)">-1</button>
+                <button onclick="changeCoin('dimes', -5)">-5</button>
+                <span id="dimes-count">0</span>
+                <button onclick="changeCoin('dimes', 1)">+1</button>
+                <button onclick="changeCoin('dimes', 5)">+5</button>
+            </div>
+            <p>Total Value: $<span id="dimes-value">0.00</span></p>
+        </div>
+
+        <div class="coin-section">
+            <h2>Quarters</h2>
+            <div class="coin-controls">
+                <button onclick="changeCoin('quarters', -1)">-1</button>
+                <button onclick="changeCoin('quarters', -5)">-5</button>
+                <span id="quarters-count">0</span>
+                <button onclick="changeCoin('quarters', 1)">+1</button>
+                <button onclick="changeCoin('quarters', 5)">+5</button>
+            </div>
+            <p>Total Value: $<span id="quarters-value">0.00</span></p>
+        </div>
+
+        <div class="coin-section">
+            <h2>Half Dollars</h2>
+            <div class="coin-controls">
+                <button onclick="changeCoin('halfDollars', -1)">-1</button>
+                <button onclick="changeCoin('halfDollars', -5)">-5</button>
+                <span id="halfDollars-count">0</span>
+                <button onclick="changeCoin('halfDollars', 1)">+1</button>
+                <button onclick="changeCoin('halfDollars', 5)">+5</button>
+            </div>
+            <p>Total Value: $<span id="halfDollars-value">0.00</span></p>
+        </div>
+
+        <div class="coin-section">
+            <h2>Dollars</h2>
+            <div class="coin-controls">
+                <button onclick="changeCoin('dollars', -1)">-1</button>
+                <button onclick="changeCoin('dollars', -5)">-5</button>
+                <span id="dollars-count">0</span>
+                <button onclick="changeCoin('dollars', 1)">+1</button>
+                <button onclick="changeCoin('dollars', 5)">+5</button>
+            </div>
+            <p>Total Value: $<span id="dollars-value">0.00</span></p>
+        </div>
+
+        <div class="total-section">
+            <h2>Total Value</h2>
+            <p>$<span id="total-value">0.00</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:aquamarine;
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.coin-section {
+    margin-bottom: 20px;
+}
+
+.coin-controls {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin: 0 5px;
+}
+
